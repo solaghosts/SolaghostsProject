@@ -3,6 +3,7 @@ const webpack = require("webpack");
 module.exports = function override(webpackConfig) {
   // Disable resolving ESM paths as fully specified.
   // See: https://github.com/webpack/webpack/issues/11467#issuecomment-691873586
+  
   webpackConfig.module.rules.push({
     test: /\.m?js/,
     resolve: {

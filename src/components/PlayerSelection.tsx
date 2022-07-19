@@ -44,6 +44,7 @@ const PlayerSelection: FC = () => {
             <div style={{ position: 'absolute', top:'50%', left:'50%', transform: 'translate(-50%, -50%)', backgroundColor:'#10141f', color:'white', borderRadius:'4px', minHeight:'70%', width:'70%', padding:'2rem', }}>
                 <div className='HeaderBox'>
                     <h1  style={{}}> Select your Player!</h1>
+                    
                     <p  style={{}}> You can change your player whenever you want within the game too</p>
                 </div>
             </div>
